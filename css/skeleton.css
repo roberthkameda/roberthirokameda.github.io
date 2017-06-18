@@ -124,7 +124,7 @@ body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
-  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Century Gothic";
   color: #222; }
 
 
@@ -170,12 +170,13 @@ button,
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
+  font-family: century gothic; 
   display: inline-block;
-  height: 38px;
-  padding: 0 30px;
-  color: #555;
+  height: 50px;
+  padding: 0 32px;
+  color: #000;
   text-align: center;
-  font-size: 11px;
+  font-size: 16px;
   font-weight: 600;
   line-height: 38px;
   letter-spacing: .1rem;
@@ -183,7 +184,7 @@ input[type="button"] {
   text-decoration: none;
   white-space: nowrap;
   background-color: transparent;
-  border-radius: 4px;
+  border-radius: 10px;
   border: 1px solid #bbb;
   cursor: pointer;
   box-sizing: border-box; }
@@ -427,7 +428,7 @@ there.
 {
 display: inline;
 list-style-type: none;
-padding-right: 20px;
+padding-right:50px;
 }
 
 
@@ -435,7 +436,7 @@ padding-right: 20px;
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .values {
   background-size: cover;
-  height: 450px;
+  height: 500px;
   background-color: #A8E0CC;
   color: #fff;
   padding-bottom: 5rem;
@@ -453,3 +454,53 @@ padding-right: 20px;
   font-weight: 300;
 }
 
+.blocbox {
+    margin-top:70px;
+    font-size: 20px;
+}
+
+.custom {
+    border-style: solid;
+    border-color: #5BFBB9;
+    border-width: 4px;
+}
+
+.headertext {
+    padding-left: 55px;
+    padding-top: 75px;
+    font-size: 20px;
+    font-family: century gothic;
+    font-style: italic;
+}
+
+.herotop {
+    border-left-style: solid;
+    height:300px;
+    padding-bottom: 20px;
+}
+
+.linetop {
+    padding-top: 120px;
+}
+
+.heroleft {
+    text-align: right;
+    font-style: italic;
+    font-size: 5;
+    padding-right: 55px;
+    padding-top: 60px;
+}
+
+.herocenter {
+    text-align: right;
+    font-style: italic;
+    font-size: 5;
+    padding-right: 55px;
+    padding-top: 1px;
+}
+
+.heroright {
+    text-align: right;
+    font-style: italic;
+    padding-right: 55px;
+}
