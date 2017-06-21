@@ -424,19 +424,22 @@ there.
 /* Custom Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-#navlist li
-{
-display: inline;
-list-style-type: none;
-padding-right:50px;
+#navlist li {
+  display: inline-block;
+  list-style-type: none;
+  padding-right: 32px;
+  margin-bottom: 0px;
 }
 
+#navcontainer {
+  white-space: nowrap;
+}
 
 /* Values
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .values {
   background-size: cover;
-  height: 500px;
+  height: 535px;
   background-color: #A8E0CC;
   color: #fff;
   padding-bottom: 5rem;
@@ -459,7 +462,13 @@ padding-right:50px;
     font-size: 20px;
 }
 
-.custom {
+.vmp {
+    border-style: solid;
+    border-color: #5BFBB9;
+    border-width: 4px;
+}
+
+.vcreat {
     border-style: solid;
     border-color: #5BFBB9;
     border-width: 4px;
@@ -467,7 +476,7 @@ padding-right:50px;
 
 .headertext {
     padding-left: 55px;
-    padding-top: 75px;
+    padding-top: 85px;
     font-size: 20px;
     font-family: century gothic;
     font-style: italic;
@@ -475,12 +484,13 @@ padding-right:50px;
 
 .herotop {
     border-left-style: solid;
-    height:300px;
+    height:350px;
     padding-bottom: 20px;
 }
 
 .linetop {
-    padding-top: 120px;
+    padding-top: 110px;
+    padding-right: 85px;
 }
 
 .heroleft {
@@ -488,7 +498,7 @@ padding-right:50px;
     font-style: italic;
     font-size: 5;
     padding-right: 55px;
-    padding-top: 60px;
+    padding-top: 83px;
 }
 
 .herocenter {
@@ -503,4 +513,117 @@ padding-right:50px;
     text-align: right;
     font-style: italic;
     padding-right: 55px;
+}
+
+.portfolio  {
+
+  margin-top: -8px;
+  text-align: center;
+  font-family: century gothic;
+}
+
+.ponocravelogo {
+  margin-top:-24px;
+}
+
+.ponocraveuxui {
+  margin-left: 36px;
+  margin-top: 50px;
+  font-family: century gothic;
+}
+
+.blocboxlogo {
+  margin-top:24px;
+}
+
+.blocboxuxui {
+  margin-left: 48px;
+  margin-top: 93px;
+  font-family: century gothic;
+}
+
+.vcspono {
+    border-style: solid;
+    border-color: #5BFBB9;
+    border-width: 4px;
+}
+
+.vcsbloc {
+    border-style: solid;
+    border-color: #5BFBB9;
+    border-width: 4px;
+}
+
+.about {
+  text-align: center;
+  margin-top: 20px;
+  font-family: century gothic;
+}
+
+.avatar {
+  margin-left: 360px;
+}
+
+.bioparagraph {
+  text-align: left;
+  font-family: century gothic;
+}
+
+.vmp {
+  margin-left: 316px;
+  margin-top: -20px;
+  font-family: century gothic;
+}
+
+.toolsiuse {
+  text-align: center;
+  font-family: century gothic;
+}
+
+.toolsiuseone {
+
+}
+
+.toolsiusetwo {
+
+}
+
+.toolsisethree {
+
+}
+
+.creative {
+  text-align: center;
+  font-family: century gothic;
+}
+
+.photologo {
+
+}
+
+.photography {
+  font-family: century gothic;
+  padding-top: 75px;
+}
+
+.vphoto {
+  border-style: solid;
+  border-color: #5BFBB9;
+  border-width: 4px;
+}
+
+.sketchlogo {
+
+}
+
+.sketch {
+  font-family: century gothic;
+  padding-top: 75px;
+  padding-left: 31px;
+}
+
+.vsketch {
+  border-style: solid;
+  border-color: #5BFBB9;
+  border-width: 4px;
 }
