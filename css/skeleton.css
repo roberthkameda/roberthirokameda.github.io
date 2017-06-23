@@ -152,7 +152,9 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 }
 
 p {
-  margin-top: 0; }
+  margin-top: 0;
+  font-weight: normal;
+  font-size: 14px;}
 
 
 /* Links
@@ -161,6 +163,11 @@ a {
   color: #1EAEDB; }
 a:hover {
   color: #0FA0CE; }
+
+a:link    {color:#000;}  /* unvisited link  */
+a:visited {color:#000;}  /* visited link    */
+a:hover   {color:#000;}  /* mouse over link */
+a:active  {color:#000;}  /* selected link   */ 
 
 
 /* Buttons
@@ -192,7 +199,11 @@ input[type="button"] {
 button:hover,
 input[type="submit"]:hover,
 input[type="reset"]:hover,
-input[type="button"]:hover,
+input[type="button"]:hover {
+    transition-duration: 0.4s;
+    background-color: #5BFBB9; /* Green */
+    color: white;
+}
 .button:focus,
 button:focus,
 input[type="submit"]:focus,
@@ -222,6 +233,7 @@ input[type="button"].button-primary:focus {
   color: #FFF;
   background-color: #1EAEDB;
   border-color: #1EAEDB; }
+}
 
 
 /* Forms
@@ -421,8 +433,31 @@ there.
 
 
 
-/* Custom Styles
+
+
+/* HOME
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.values {
+  background-size: cover;
+  height: 535px;
+  background-color: #A8E0CC;
+  color: white;
+  padding-bottom: 5rem;
+}
+ 
+.value-multiplier {
+  margin-bottom: .5rem;
+  color: #11DFC7;
+}
+
+.value-heading {
+  margin-bottom: .3rem;
+}
+
+.value-description {
+  opacity: .8;
+  font-weight: 300;
+}
 
 #navlist li {
   display: inline-block;
@@ -435,37 +470,11 @@ there.
   white-space: nowrap;
 }
 
-/* Values
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.values {
-  background-size: cover;
-  height: 535px;
-  background-color: #A8E0CC;
-  color: #fff;
-  padding-bottom: 5rem;
-}
-.values 
-.value-multiplier {
-  margin-bottom: .5rem;
-  color: #11DFC7;
-}
-.value-heading {
-  margin-bottom: .3rem;
-}
-.value-description {
-  opacity: .8;
-  font-weight: 300;
+.contents {
+
 }
 
-.blocbox {
-    margin-top:70px;
-    font-size: 20px;
-}
-
-.vmp {
-    border-style: solid;
-    border-color: #5BFBB9;
-    border-width: 4px;
+.roberthirokameda {
 }
 
 .vcreat {
@@ -476,7 +485,7 @@ there.
 
 .headertext {
     padding-left: 55px;
-    padding-top: 85px;
+    padding-top: 104px;
     font-size: 20px;
     font-family: century gothic;
     font-style: italic;
@@ -490,7 +499,7 @@ there.
 
 .linetop {
     padding-top: 110px;
-    padding-right: 85px;
+    padding-right: 84px;
 }
 
 .heroleft {
@@ -498,7 +507,7 @@ there.
     font-style: italic;
     font-size: 5;
     padding-right: 55px;
-    padding-top: 83px;
+    padding-top: 86px;
 }
 
 .herocenter {
@@ -516,29 +525,48 @@ there.
 }
 
 .portfolio  {
-
-  margin-top: -8px;
+  margin-top: -5px;
   text-align: center;
   font-family: century gothic;
 }
 
+.about {
+  text-align: center;
+  margin-top: 48px;
+  font-family: century gothic;
+}
+
+.toolsiuse {
+  text-align: center;
+  font-family: century gothic;
+}
+
+.creative {
+  text-align: center;
+  font-family: century gothic;
+}
+
+.contact {
+  text-align: center;
+}
+
 .ponocravelogo {
-  margin-top:-24px;
+  margin-top:-23px;
 }
 
 .ponocraveuxui {
-  margin-left: 36px;
-  margin-top: 50px;
+  margin-left: 32px;
+  margin-top: 51px;
   font-family: century gothic;
 }
 
 .blocboxlogo {
-  margin-top:24px;
+  margin-top:35px;
 }
 
 .blocboxuxui {
-  margin-left: 48px;
-  margin-top: 93px;
+  margin-left: 45px;
+  margin-top: 108px;
   font-family: century gothic;
 }
 
@@ -554,14 +582,11 @@ there.
     border-width: 4px;
 }
 
-.about {
-  text-align: center;
-  margin-top: 20px;
-  font-family: century gothic;
-}
-
 .avatar {
-  margin-left: 360px;
+  display: block;
+  margin: auto;
+  width: 13.5%;
+  margin-top: 18px;
 }
 
 .bioparagraph {
@@ -570,60 +595,407 @@ there.
 }
 
 .vmp {
-  margin-left: 316px;
-  margin-top: -20px;
+  border-style: solid;
+  border-color: #5BFBB9;
+  border-width: 4px;
+  display: block;
+  margin: auto;
   font-family: century gothic;
+  margin-bottom: 26px;
 }
 
-.toolsiuse {
-  text-align: center;
-  font-family: century gothic;
+.aiidpssketch {
+  display: block;
+  margin-left: -11px;
 }
 
-.toolsiuseone {
-
+.urat {
+ margin-left: -15px;
+ font-family: century gothic;
 }
 
-.toolsiusetwo {
-
+.design {
+margin-left: 39px;
+font-family: century gothic;
 }
 
-.toolsisethree {
-
-}
-
-.creative {
-  text-align: center;
-  font-family: century gothic;
-}
-
-.photologo {
-
+.ufmm {
+ margin-left: -58px;
+ font-family: century gothic;
 }
 
 .photography {
   font-family: century gothic;
   padding-top: 75px;
+  padding-left: 60px;
+}
+
+.sketch {
+  font-family: century gothic;
+  padding-top: 75px;
+  padding-left: 90px;
 }
 
 .vphoto {
   border-style: solid;
   border-color: #5BFBB9;
   border-width: 4px;
+  margin-left: 59px;
 }
-
-.sketchlogo {
-
-}
-
-.sketch {
-  font-family: century gothic;
-  padding-top: 75px;
-  padding-left: 31px;
-}
-
 .vsketch {
   border-style: solid;
   border-color: #5BFBB9;
   border-width: 4px;
+  margin-left: 59px;
 }
+
+.homebtt {
+  border-style: solid;
+  border-color: #5BFBB9;
+  border-width: 4px;
+  display: block;
+  margin: auto;
+  font-family: century gothic;
+  margin-bottom: 26px;
+}
+
+/* PONOCRAVE
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.ponocravehead {
+
+}
+.ponocravehtext {
+
+}
+.ponocrave {
+  text-align: center;
+}
+
+.pcoverview {
+  text-align: center;
+}
+
+.pcoverviewb {
+  text-align: center;
+}
+
+.pcproblem {
+  text-align: center;
+}
+
+.pcproblemb {
+  text-align: center;
+}
+
+.pcsolution {
+  text-align: center;
+}
+
+.pcsolutionb {
+  text-align: center;
+}
+
+.pcresearch {
+}
+
+.pcsurvey {
+  text-align: center;
+}
+
+.pcsurveyb {
+  text-align: center;
+}
+
+.pccompetitive {
+  text-align: center;
+}
+
+.pccompetitiveb {
+  text-align: center;
+}
+
+.pcgoal {
+
+}
+
+.pcgoalmvp{
+  text-align: center;
+}
+
+.pcgoalb {
+  text-align: center;
+}
+
+.pcstorytelling {
+}
+
+.pcuserp {
+  text-align: center;
+}
+
+.pcuserpb {
+  text-align: center;
+}
+
+.pcusers {
+  text-align: center;
+}
+
+.pcusersb {
+  text-align: center;
+}
+
+.pcuserf {
+  text-align: center;
+}
+
+.pcuserfb {
+  text-align: center;
+}
+
+.pcbranding {
+}
+
+.pcstyleguide {
+  text-align: center;
+}
+
+.pcstyleguideb {
+  text-align: center;
+}
+
+.pcprototype {
+}
+
+.pclofi {
+  text-align: center;
+}
+
+.pclofib {
+  text-align: center;
+}
+
+.pchifi {
+  text-align: center;
+}
+
+.pchifib {
+  text-align: center;
+}
+
+.pctesting {
+}
+
+.pcutesting {
+  text-align: center;
+
+}
+
+.pcutestingb {
+  text-align: center;
+}
+
+.pcufeedback {
+  text-align: center;
+
+}
+
+.pcufeedbackb {
+  text-align: center;
+}
+
+.pcivb {
+  text-align: center;
+}
+
+.pcbtt {
+  border-style: solid;
+  border-color: #5BFBB9;
+  border-width: 4px;
+  display: block;
+  margin: auto;
+  font-family: century gothic;
+  margin-bottom: 26px;
+}
+
+.pcbtp {
+  border-style: solid;
+  border-color: #5BFBB9;
+  border-width: 4px;
+  display: block;
+  margin: auto;
+  font-family: century gothic;
+  margin-bottom: 26px;
+}
+
+/* BLOCBOX
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.blocboxhead {
+}
+.blocboxhtext {
+}
+
+.blocbox {
+  text-align: center;
+}
+
+.bboverview {
+    text-align: center;
+}
+
+.bboverviewb {
+  text-align: center;
+}
+
+.bbproblem {
+  text-align: center;
+}
+
+.bbproblemb {
+  text-align: center;
+}
+
+.bbsolution {
+  text-align: center;
+}
+
+.bbsolutionb {
+  text-align: center;
+}
+
+.bbresearch {
+}
+
+.bbsurvey {
+  text-align: center;
+}
+
+.bbsurveyb {
+  text-align: center;
+}
+
+.bbcompetitive {
+  text-align: center;
+}
+
+.bbcompetitiveb {
+  text-align: center;
+}
+
+.bbgoal {
+}
+
+.bbgoalmvp{
+  text-align: center;
+}
+
+.bbgoalb {
+  text-align: center;
+}
+
+.bbstorytelling {
+}
+
+.bbuserp {
+  text-align: center;
+}
+
+.bbuserpb {
+  text-align: center;
+}
+
+.bbusers {
+  text-align: center;
+}
+
+.bbusersb {
+  text-align: center;
+}
+
+.bbuserf {
+  text-align: center;
+}
+
+.bbuserfb {
+  text-align: center;
+}
+
+.bbbranding {
+}
+
+.bbstyleguide {
+  text-align: center;
+}
+
+.bbstyleguideb {
+  text-align: center;
+}
+
+.bbprototype {
+}
+
+.bblofi {
+  text-align: center;
+}
+
+.bblofib {
+  text-align: center;
+}
+
+.bbhifi {
+  text-align: center;
+}
+
+.bbhifib {
+  text-align: center;
+}
+
+.bbtesting {
+}
+
+.bbutesting {
+  text-align: center;
+}
+
+.bbutestingb {
+  text-align: center;
+}
+
+.bbufeedback {
+   text-align: center
+}
+
+.bbufeedbackb {
+  text-align: center;
+}
+
+.bbiv {
+}
+
+.bbivb {
+  text-align: center;
+}
+
+.bbbtt {
+  border-style: solid;
+  border-color: #5BFBB9;
+  border-width: 4px;
+  display: block;
+  margin: auto;
+  font-family: century gothic;
+  margin-bottom: 0px;
+}
+
+.bbbtp {
+  border-style: solid;
+  border-color: #5BFBB9;
+  border-width: 4px;
+  display: block;
+  margin: auto;
+  font-family: century gothic;
+  margin-bottom: 0px;
+}
+
+
+
+
