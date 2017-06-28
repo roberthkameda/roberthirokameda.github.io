@@ -388,10 +388,10 @@ form {
 /* Misc
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 hr {
-  margin-top: 3rem;
-  margin-bottom: 3.5rem;
+
+  margin-top: -16px;
   border-width: 0;
-  border-top: 1px solid #E1E1E1; }
+  border-top: 6px solid #5BFBB9; }
 
 
 /* Clearing
@@ -468,10 +468,6 @@ there.
 
 #navcontainer {
   white-space: nowrap;
-}
-
-.contents {
-
 }
 
 .roberthirokameda {
@@ -598,10 +594,9 @@ there.
   border-style: solid;
   border-color: #5BFBB9;
   border-width: 4px;
-  display: block;
-  margin: auto;
-  font-family: century gothic;
+  margin-left:366px;
   margin-bottom: 26px;
+
 }
 
 .aiidpssketch {
@@ -649,7 +644,7 @@ font-family: century gothic;
   margin-left: 59px;
 }
 
-.homebtt {
+.homebh {
   border-style: solid;
   border-color: #5BFBB9;
   border-width: 4px;
@@ -808,22 +803,18 @@ font-family: century gothic;
   text-align: center;
 }
 
-.pcbtt {
+.pcbt {
   border-style: solid;
   border-color: #5BFBB9;
   border-width: 4px;
-  display: block;
-  margin: auto;
   font-family: century gothic;
   margin-bottom: 26px;
 }
 
-.pcbtp {
+.pcbh {
   border-style: solid;
   border-color: #5BFBB9;
   border-width: 4px;
-  display: block;
-  margin: auto;
   font-family: century gothic;
   margin-bottom: 26px;
 }
@@ -976,26 +967,49 @@ font-family: century gothic;
   text-align: center;
 }
 
-.bbbtt {
+.bbbt {
   border-style: solid;
   border-color: #5BFBB9;
   border-width: 4px;
-  display: block;
-  margin: auto;
   font-family: century gothic;
   margin-bottom: 0px;
 }
 
-.bbbtp {
+.bbbh {
   border-style: solid;
   border-color: #5BFBB9;
   border-width: 4px;
-  display: block;
-  margin: auto;
   font-family: century gothic;
   margin-bottom: 0px;
 }
 
 
+.downarrow {
+  text-align: center;
 
+}
+
+.stepdesignprocess {
+ text-align: center;
+ margin-top: 10px;
+}
+
+
+.mypbh {
+  border-style: solid;
+  border-color: #5BFBB9;
+  border-width: 4px;
+  font-family: century gothic;
+  margin-top: 30px;
+  margin-left:400px;
+}
+
+.homebt {
+  border-style: solid;
+  border-color: #5BFBB9;
+  border-width: 4px;
+  font-family: century gothic;
+  margin-top: 30px;
+  margin-left:400px;
+}
 
