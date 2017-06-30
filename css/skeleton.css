@@ -274,8 +274,8 @@ input[type="button"].button-primary:focus {
   border-color: #5BFBB9;
   border-width: 4px;
   font-family: century gothic;
-  margin-top: 30px;
-  margin-left:400px;
+  margin-left: 428px;
+
 }
 
 .mypbh {
@@ -293,6 +293,7 @@ input[type="button"].button-primary:focus {
   border-width: 4px;
   font-family: century gothic;
   margin-bottom: 0px;
+  margin-left: 165px;
 }
 
 .bbbh {
@@ -301,6 +302,7 @@ input[type="button"].button-primary:focus {
   border-width: 4px;
   font-family: century gothic;
   margin-bottom: 0px;
+  margin-left: 210px;
 }
 
 .pcbt {
@@ -309,6 +311,7 @@ input[type="button"].button-primary:focus {
   border-width: 4px;
   font-family: century gothic;
   margin-bottom: 26px;
+  margin-left: 165px;
 }
 
 .pcbh {
@@ -317,6 +320,7 @@ input[type="button"].button-primary:focus {
   border-width: 4px;
   font-family: century gothic;
   margin-bottom: 26px;
+  margin-left: 210px;
 }
 
 .pbh {
@@ -538,7 +542,7 @@ there.
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .values {
   background-size: cover;
-  height: 581px;
+  height: 584px;
   background-color: #A8E0CC;
   color: white;
   padding-bottom: 5rem;
@@ -546,15 +550,15 @@ there.
 
 .valuesponocrave {
   background-size: cover;
-  height: 581px;
-  background-color: #FF7918;
+  height: 584px;
+  background-color: #ED8438;
   color: white;
   padding-bottom: 5rem;
 }
 
 .valuesblocbox {
   background-size: cover;
-  height: 581px;
+  height: 584px;
   background-color: #6199F8;
   color: white;
   padding-bottom: 5rem;
@@ -562,7 +566,7 @@ there.
 
 .valuesmyprocess {
   background-size: cover;
-  height: 581px;
+  height: 584px;
   background-color: #C1CBDC;
   color: white;
   padding-bottom: 5rem;
@@ -570,7 +574,7 @@ there.
 
 .valuessketch {
   background-size: cover;
-  height: 581px;
+  height: 584px;
   background-color: #FF8F83;
   color: white;
   padding-bottom: 5rem;
@@ -578,7 +582,7 @@ there.
 
 .valuesphotography {
   background-size: cover;
-  height: 581px;
+  height: 584px;
   background-color: #80C6B4;
   color: white;
   padding-bottom: 5rem;
@@ -628,13 +632,13 @@ there.
 
 .herotop {
     border-left-style: solid;
-    height:350px;
+    height:370px;
     padding-bottom: 20px;
 }
 
 .linetop {
     padding-top: 110px;
-    padding-right: 84px;
+    padding-right: 190px;
 }
 
 .heroleft {
@@ -752,13 +756,22 @@ font-family: century gothic;
 /* PONOCRAVE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .ponocravehead {
+    padding-top: 140px;
+    padding-left: 20px;
 
 }
 .ponocravehtext {
-
+    padding-left: 55px;
+    padding-top: 145px;
+    font-size: 20px;
+    font-family: century gothic;
+    font-style: italic;
 }
+
 .ponocrave {
   text-align: center;
+  margin-top: -5px;
+
 }
 
 .pcoverview {
@@ -901,12 +914,21 @@ font-family: century gothic;
 /* BLOCBOX
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .blocboxhead {
+  margin-top: 130px;
+  margin-left: 80px;
 }
+
 .blocboxhtext {
+    padding-left: 55px;
+    padding-top: 104px;
+    font-size: 20px;
+    font-family: century gothic;
+    font-style: italic;
 }
 
 .blocbox {
   text-align: center;
+  margin-top: -5px;
 }
 
 .bboverview {
@@ -1059,6 +1081,7 @@ font-family: century gothic;
 }
 
 .myphead {
+  margin-top: 130px;
 }
 
 .myplogo {
@@ -1086,9 +1109,7 @@ font-family: century gothic;
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 * {box-sizing:border-box}
-
-
-/* Slideshow CSS */
+.mySlides {display:none}
 
 /* Slideshow container */
 .slideshow-container {
@@ -1097,18 +1118,14 @@ font-family: century gothic;
   margin: auto;
 }
 
-.mySlides {
-    display: none;
-}
-
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
   position: absolute;
   top: 50%;
   width: auto;
-  margin-top: -22px;
   padding: 16px;
+  margin-top: -32px;
   color: white;
   font-weight: bold;
   font-size: 18px;
@@ -1123,11 +1140,7 @@ font-family: century gothic;
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-.next:hover {
+.prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
 
@@ -1154,8 +1167,8 @@ font-family: century gothic;
 /* The dots/bullets/indicators */
 .dot {
   cursor:pointer;
-  height: 1px;
-  width: 1px;
+  height: 13px;
+  width: 13px;
   margin: 0 2px;
   background-color: #bbb;
   border-radius: 50%;
@@ -1185,49 +1198,7 @@ font-family: century gothic;
   to {opacity: 1}
 }
 
-
-
-
-
-
-/* Next & previous buttons */
-  #prev, #next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
 }
-
-  /* Position the "next button" to the right */
-  #next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-  /* Caption text */
-  .newtext {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.newnumbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
