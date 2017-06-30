@@ -56,30 +56,26 @@
         </div>
     </div>    
   </div>
+</div>
       
 
-<div class="section values">
+<div class="valuesmyprocess">
   <div class="container">
     <div class="row">
       <div class="linetop">
         <div class="five columns">
           <ul>
-            <li><h1 class="myprocesshead"><b>my process</b></h1></li>
+            <li><h1 class="myphead"><b>my process</b></h1></li>
           </ul>
         </div>
         <div class="seven columns">
           <div class="herotop">
-            <div class="myplogo">
-              <img src="images/myplogo.jpg"/>
-            </div>
+            <img src="myplogo">
           </div>
         </div>
-
       </div>
     </div>
   </div>
-</div>
-
 </div>
 
 
@@ -233,6 +229,49 @@
         	<a href="index.html"><button class="mypbh"><b>HOME</b></button>
       	</div>
     	</div>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
+
+
+
+
+
+
+
+
 
 
 

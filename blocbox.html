@@ -5,7 +5,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>HOME</title>
+  <title>BLOCBOX</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -38,18 +38,18 @@
 
     <div class="five columns" style="margin-top: 17px">
       <div class="roberthirokameda">
-        <h5><b>ROBERT HIRO KAMEDA</b></h5>
+        <h5 id="toptop"><b>ROBERT HIRO KAMEDA</b></h5>
       </div>
     </div>
         
     <div class="seven columns" style="margin-top: 24px">
         <div id="navcontainer">
             <ul id="navlist">
-            <li id="contents"><a href="#C1"  style="text-decoration: none">PORTFOLIO</a></li>
-            <li><a href="#C2" style="text-decoration: none">ABOUT</a></li>
-            <li><a href="#C3" style="text-decoration: none">CREATIVE</a></li>
+            <li id="contents"><a href=index.html#viewportfolio style="text-decoration: none">PORTFOLIO</a></li>
+            <li><a href=index.html#viewabout style="text-decoration: none">ABOUT</a></li>
+            <li><a href=index.html#viewcreative style="text-decoration: none">CREATIVE</a></li>
             <li><a href="myprocess.html" style="text-decoration: none">MY PROCESS</a></li>
-            <li><a href="#C5" style="text-decoration: none">CONTACT</a></li>
+            <li><a href=index.html#viewcontact style="text-decoration: none">CONTACT</a></li>
             </ul>
         </div>
     </div>    
@@ -57,7 +57,7 @@
 </div>
       
 
-<div class="section values">
+<div class="valuesblocbox">
   <div class="container">
     <div class="row">
       <div class="linetop">
@@ -77,6 +77,10 @@
   </div>
 </div>
 
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
 
 <!-- BODY
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -92,32 +96,26 @@
 
     <div class="row">
       <div class="eight columns offset-by-two" style="margin-top: 30px">
-
         <div class="bboverview">
           <p><b>OVERVIEW</b></p>
         </div>
-
         <div class="bboverviewb">
           <p>Blocbox is a could-based software I designed that allows users to save, share and collaborate information: create simple notes, store images, and add links.</p>
         </div>
-
         <div class="bbproblem">
           <p><b>PROBLEM</b></p>
         </div>
-
         <div class="bbproblemb">
           <p>User’s found it frustrating to use current software services, currently active in the market, that allows them to organize & manage all kinds of information. Based on the intervieews, it was clear that current products weren’t user-focused and didnt offer an  seamless user experience, and my role was to fix this.</p>
         </div>
-
         <div class="bbsolution">
           <p><b>SOLUTION</b></p>
         </div>
-
         <div class="bbsolutionb">
           <p>After following the guideline of my 8-step design process (Reseach, Goal, Storytelling, Branding, Prototype, Test, Iteration, and Validation), I was able to create Blocbox, an Saas product, that let users share and collect information with ease, and also include qualities that distinguishes from other typical book-marking features.</p> 
         </div>
+      </div>
     </div>
-  </div>
 
 
   <div class="row">
@@ -139,7 +137,6 @@
       </div>
     </div>
   </div>
-
 
     <div class="row">
       <div class="eight columns offset-by-two" style="margin-top: 30px">
@@ -199,32 +196,25 @@
       </div>
     </div>
 
-
     <div class="row">
       <div class="eight columns offset-by-two" style="margin-top: 30px">
         <div class="bbprototype">
           <p><b>PROTOTYPE</b></p> <hr>
         </div>
-
         <div class="bblofi">
           <p><b>LO-FI</b></p>
         </div>
-
         <div class="bblofib">
           <p>Lastly, came the flows, which helped me visualize even further on the information architecture of blocbox. This later heavily contributed to the creation of the low-fidelity and high-fidelty prototype. </p>
         </div>
-
         <div class="bbhifi">
           <p><b>HI-FI</b></p>
         </div>
-
         <div class="bbhifib">
           <p>Lastly, came the flows, which helped me visualize even further on the information architecture of blocbox. This later heavily contributed to the creation of the low-fidelity and high-fidelty prototype.</p>
         </div>
       </div>
     </div>
-
-
 
     <div class="row">
       <div class="eight columns offset-by-two" style="margin-top: 30px">
@@ -246,7 +236,6 @@
       </div>
     </div>
 
-
     <div class="row">
       <div class="eight columns offset-by-two" style="margin-top: 30px">
         <div class="bbiv">
@@ -260,7 +249,7 @@
 
     <div class="row">
       <div class="six columns" style="margin-bottom: 50px">
-        <a href="#C"><button class="bbbt"><b>TOP<b></button>
+        <a href="#toptop"><button class="bbbt"><b>TOP<b></button>
       </div>
       <div class="six columns" style="margin-bottom: 50px">
         <a href="index.html"><button class="bbbh"><b>HOME<b></button>
@@ -268,6 +257,48 @@
     </div>
 
 </div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
+
+
+
+
+
+
+
+
 
 
 
