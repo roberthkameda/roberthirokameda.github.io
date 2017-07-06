@@ -305,13 +305,21 @@ input[type="button"].button-primary:focus {
   margin-left: 210px;
 }
 
+.pcinvisionbtn {
+  border-style: solid;
+  border-color: #5BFBB9;
+  border-width: 4px;
+  font-family: century gothic;
+  margin-left: 225px;
+}
+
 .pcbt {
   border-style: solid;
   border-color: #5BFBB9;
   border-width: 4px;
   font-family: century gothic;
   margin-bottom: 26px;
-  margin-left: 165px;
+  margin-left: 125px;
 }
 
 .pcbh {
@@ -320,7 +328,15 @@ input[type="button"].button-primary:focus {
   border-width: 4px;
   font-family: century gothic;
   margin-bottom: 26px;
-  margin-left: 210px;
+  margin-left: 170px;
+}
+
+.pcsbtn {
+  border-style: solid;
+  border-color: #5BFBB9;
+  border-width: 4px;
+  font-family: century gothic;
+  margin-left: 125px;
 }
 
 .pbh {
@@ -798,6 +814,10 @@ font-family: century gothic;
   text-align: center;
 }
 
+.mobileslide {
+  
+}
+
 .pcresearch {
 }
 
@@ -909,6 +929,12 @@ font-family: century gothic;
 
 .pcivb {
   text-align: center;
+}
+
+.ponocravebalsamiqimage {
+  display: block;
+  margin: auto;
+  margin-left: 70px;
 }
 
 /* BLOCBOX
@@ -1115,8 +1141,7 @@ font-family: century gothic;
 .slideshow-container {
   max-width: 1000px;
   position: relative;
-  margin: auto;
-}
+  margin: auto; }
 
 /* Next & previous buttons */
 .prev, .next {
