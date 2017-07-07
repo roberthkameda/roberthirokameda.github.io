@@ -25,7 +25,11 @@
 - Media Queries
 */
 
-
+img {
+   width: 50%;
+   display:block;
+   margin:0 auto;
+}
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .container {
@@ -336,7 +340,7 @@ input[type="button"].button-primary:focus {
   border-color: #5BFBB9;
   border-width: 4px;
   font-family: century gothic;
-  margin-left: 125px;
+  
 }
 
 .pbh {
