@@ -25,11 +25,6 @@
 - Media Queries
 */
 
-img {
-   width: 50%;
-   display:block;
-   margin:0 auto;
-}
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .container {
@@ -1145,8 +1140,16 @@ font-family: century gothic;
 .slideshow-container {
   max-width: 1000px;
   position: relative;
-  margin: auto; }
+  text-align: center;
+  margin: 0 auto; 
+}
 
+.slideshow-img {
+  width: 50%;
+  display: block;
+  text-align: center;
+  margin:0 auto; 
+}
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
@@ -1160,6 +1163,8 @@ font-family: century gothic;
   font-size: 18px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
+  text-align: center;
+  margin: 0 auto; 
 }
 
 /* Position the "next button" to the right */
