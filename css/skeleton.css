@@ -159,7 +159,8 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #1EAEDB; }
+  color: #1EAEDB;
+  text-decoration: none }
 a:hover {
   color: #0FA0CE; }
 
@@ -309,7 +310,8 @@ input[type="button"].button-primary:focus {
   border-color: #5BFBB9;
   border-width: 4px;
   font-family: century gothic;
-  margin-left: 225px;
+  display: block;
+  margin: auto;
 }
 
 .pcbt {
@@ -318,7 +320,8 @@ input[type="button"].button-primary:focus {
   border-width: 4px;
   font-family: century gothic;
   margin-bottom: 26px;
-  margin-left: 125px;
+  position: absolute;
+  left: 1;
 }
 
 .pcbh {
@@ -327,7 +330,8 @@ input[type="button"].button-primary:focus {
   border-width: 4px;
   font-family: century gothic;
   margin-bottom: 26px;
-  margin-left: 170px;
+  position: absolute;
+
 }
 
 .pcsbtn {
@@ -335,7 +339,8 @@ input[type="button"].button-primary:focus {
   border-color: #5BFBB9;
   border-width: 4px;
   font-family: century gothic;
-  
+  display: block;
+  margin: auto;
 }
 
 .pbh {
@@ -1171,6 +1176,12 @@ font-family: century gothic;
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+
 }
 
 /* On hover, add a black background color with a little bit see-through */
