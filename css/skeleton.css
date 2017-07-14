@@ -314,6 +314,15 @@ input[type="button"].button-primary:focus {
   margin: auto;
 }
 
+.bbinvisionbtn {
+  border-style: solid;
+  border-color: #5BFBB9;
+  border-width: 4px;
+  font-family: century gothic;
+  display: block;
+  margin: auto;
+}
+
 .pcbt {
   border-style: solid;
   border-color: #5BFBB9;
@@ -376,7 +385,9 @@ select {
   border: 1px solid #D1D1D1;
   border-radius: 4px;
   box-shadow: none;
-  box-sizing: border-box; }
+  box-sizing: border-box; 
+  width: 400px;
+}
 /* Removes awkward default styles on some inputs for iOS */
 input[type="email"],
 input[type="number"],
@@ -773,6 +784,13 @@ font-family: century gothic;
   padding-left: 90px;
 }
 
+.cbioparagraph {
+  text-align: right;
+  margin-top: 55px;
+  font-family: century gothic;
+}
+
+
 /* PONOCRAVE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .ponocravehead {
@@ -1005,6 +1023,11 @@ font-family: century gothic;
 }
 
 .bbgoal {
+}
+
+.bbmvp {
+  display: block;
+  margin: auto;
 }
 
 .bbgoalmvp{
