@@ -5,7 +5,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>SKETCH</title>
+  <title>PHOTGRAPHY</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -24,7 +24,7 @@
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="icon" type="image/png" href="images/.png">
 
 </head>
 <body>
@@ -33,18 +33,21 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <div class="container">
   <div class="row">
-    <div class="six columns" style="margin-top: 30px">
-      <h4>ROBERT HIRO KAMEDA</h4>
+
+    <div class="five columns" style="margin-top: 17px">
+      <div class="roberthirokameda">
+        <h5 id="toptop"><a href="index.html"><b>ROBERT HIRO KAMEDA</b></h5></a>
+      </div>
     </div>
         
-    <div class="six columns" style="margin-top: 40px">
+    <div class="seven columns" style="margin-top: 24px">
         <div id="navcontainer">
             <ul id="navlist">
-            <li id="active"><a href="#C1" id="current">Portfolio</a></li>
-            <li><a href="#C2">About</a></li>
-            <li><a href="#C3">Creative</a></li>
-            <li><a href="myprocess.html">My Process</a></li>
-            <li><a href="#C5">Contact</a></li>
+            <li id="contents"><a href=index.html#viewportfolio style="text-decoration: none">PORTFOLIO</a></li>
+            <li><a href=index.html#viewabout style="text-decoration: none">ABOUT</a></li>
+            <li><a href=index.html#viewcreative style="text-decoration: none">CREATIVE</a></li>
+            <li><a href="myprocess.html" style="text-decoration: none">MY PROCESS</a></li>
+            <li><a href=index.html#viewcontact style="text-decoration: none">CONTACT</a></li>
             </ul>
         </div>
     </div>    
@@ -69,4 +72,118 @@
     </div>
   </div>
 </div>
+
+<!-- BODY
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<div class="container">
+
+    <div class="row">
+      <div class="twelve columns" style="margin-top: 30px">
+        <div class="blocbox">
+          <h6><b>SKETCH<b></h6>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="slideshow1" class="slideshow-container">
+    <div class="mySlides fade">
+    <div class="numbertext">1 / 10</div>
+    <img src="images/.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+    <div class="numbertext">2 / 10</div>
+    <img src="images/.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+    <div class="numbertext">3 / 10</div>
+    <img src="images/.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+    <div class="numbertext">4 / 10</div>
+    <img src="images/.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+    <div class="numbertext">5 / 10</div>
+    <img src="images/.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+    <div class="numbertext">6 / 10</div>
+    <img src="images/.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+    <div class="numbertext">7 / 10</div>
+    <img src="images/.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+    <div class="numbertext">8 / 10</div>
+    <img src="images/.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+    <div class="numbertext">9 / 10</div>
+    <img src="images/.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+    <div class="numbertext">10 / 10</div>
+    <img src="images/.jpg" style="width:100%">
+    </div>
+    <a class="prev" onclick="plusSlides(-1, this.parentNode)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1, this.parentNode)">&#10095;</a>
+    <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1, slideshow1)"></span> 
+    <span class="dot" onclick="currentSlide(2, slideshow1)"></span> 
+    <span class="dot" onclick="currentSlide(3, slideshow1)"></span> 
+    <span class="dot" onclick="currentSlide(4, slideshow1)"></span> 
+    <span class="dot" onclick="currentSlide(5, slideshow1)"></span> 
+    <span class="dot" onclick="currentSlide(6, slideshow1)"></span> 
+    <span class="dot" onclick="currentSlide(7, slideshow1)"></span> 
+    <span class="dot" onclick="currentSlide(8, slideshow1)"></span> 
+    <span class="dot" onclick="currentSlide(9, slideshow1)"></span> 
+    <span class="dot" onclick="currentSlide(10, slideshow1)"></span> 
+    </div>
+    </div>
+    <br>
+
+</div>
+
+<script>
+
+var slideshow1 = document.getElementById("slideshow1");
+slideshow1.currentSlideIndex = 1;
+showSlides(slideshow1.currentSlideIndex, slideshow1);
+
+function plusSlides(n, slideshow) {
+  showSlides(slideshow.currentSlideIndex += n, slideshow);
+}
+
+function currentSlide(n, slideshow) {
+  showSlides(slideshow.currentSlideIndex = n, slideshow);
+}
+
+function showSlides(n, slideshow) {
+  
+  var i;
+  var slides = slideshow.getElementsByClassName("mySlides");
+  var dots = slideshow.getElementsByClassName("dot");
+  if (n > slides.length) {slideshow.currentSlideIndex = 1}    
+  if (n < 1) {slideshow.currentSlideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideshow.currentSlideIndex-1].style.display = "block";  
+  dots[slideshow.currentSlideIndex-1].className += " active";
+}
+
+</script>
+
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
+      
+
 

@@ -291,7 +291,7 @@ input[type="button"].button-primary:focus {
   border-style: solid;
   border-color: #5BFBB9;
   border-width: 4px;
-  font-family: century gothic;
+  font-family: font-family: 'Reem Kufi', sans-serif;
   margin-bottom: 0px;
   margin-left: 165px;
 }
@@ -300,7 +300,7 @@ input[type="button"].button-primary:focus {
   border-style: solid;
   border-color: #5BFBB9;
   border-width: 4px;
-  font-family: century gothic;
+  font-family: font-family: 'Reem Kufi', sans-serif;
   margin-bottom: 0px;
   margin-left: 210px;
 }
@@ -309,7 +309,7 @@ input[type="button"].button-primary:focus {
   border-style: solid;
   border-color: #5BFBB9;
   border-width: 4px;
-  font-family: century gothic;
+  font-family: 'Reem Kufi', sans-serif;
   display: block;
   margin: auto;
 }
@@ -704,6 +704,7 @@ there.
   text-align: center;
   margin-top: 48px;
   font-family: century gothic;
+
 }
 
 .toolsiuse {
@@ -741,14 +742,12 @@ there.
 }
 
 .avatar {
-  display: block;
-  margin: auto;
-  width: 13.5%;
+ text-align: center;
   margin-top: 18px;
 }
 
 .bioparagraph {
-  text-align: left;
+  text-align: center;
   font-family: century gothic;
 }
 
