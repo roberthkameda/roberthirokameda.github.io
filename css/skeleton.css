@@ -278,6 +278,15 @@ input[type="button"].button-primary:focus {
 
 }
 
+.bbsbtn {
+  border-style: solid;
+  border-color: #5BFBB9;
+  border-width: 4px;
+  font-family: 'Raleway', sans-serif;
+  display: block;
+  margin: auto; 
+}
+
 .mypbh {
   border-style: solid;
   border-color: #5BFBB9;
