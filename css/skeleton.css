@@ -249,15 +249,6 @@ input[type="button"].button-primary:focus {
   margin-left: 59px;
 }
 
-.vmp {
-  border-style: solid;
-  border-color: #5BFBB9;
-  border-width: 4px;
-  display: block;
-  margin: auto; 
-  margin-bottom: 26px;
-}
-
 .vcspono {
     border-style: solid;
     border-color: #5BFBB9;
