@@ -253,7 +253,8 @@ input[type="button"].button-primary:focus {
   border-style: solid;
   border-color: #5BFBB9;
   border-width: 4px;
-  margin-left:366px;
+  display: block;
+  margin: auto; 
   margin-bottom: 26px;
 }
 
