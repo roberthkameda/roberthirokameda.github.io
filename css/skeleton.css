@@ -976,11 +976,9 @@ font-family: 'Raleway', sans-serif;
 }
 
 .blocboxhtext {
-    padding-left: 55px;
-    padding-top: 104px;
-    font-size: 20px;
-    font-family: 'Raleway', sans-serif;
-    font-style: italic;
+  padding-left: 55px;
+  padding-top: 104px;
+  font-size: 20px;
 }
 
 .blocbox {
@@ -1152,9 +1150,17 @@ font-family: 'Raleway', sans-serif;
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .shead {
+  margin-top:156px;
+  margin-left:140px;
+
 }
 
 .shtext {
+  margin-top:10px;
+  padding-left: 50px;
+  padding-top: 125px;
+  font-size: 20px;
+
 }
 
 /* PHOTOGRAPHY
@@ -1165,6 +1171,10 @@ font-family: 'Raleway', sans-serif;
 }
 
 .phtext {
+  margin-top:10px;
+  padding-left: 50px;
+  padding-top: 115px;
+  font-size: 20px;
 
 }
 
