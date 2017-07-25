@@ -560,12 +560,6 @@ there.
 */
 
 
-@media (max-width: 831px) {
-   #navlist li {
-    display: block;
-  }
-}
-
 /* HOME
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .values {
@@ -635,6 +629,12 @@ there.
   list-style-type: none;
   padding-right: 32px;
   margin-bottom: 0px;
+}
+
+@media (max-width: 831px) {
+  #navlist li {
+    display: block;
+  }
 }
 
 #navcontainer {
