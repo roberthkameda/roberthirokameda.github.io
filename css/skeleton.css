@@ -1321,7 +1321,7 @@ header::after {
 
 .menu-toggle {
   position: absolute;
-  padding: 0.8em;
+  padding: 1em;
   top: 1em;
   right: .5em;
   cursor: pointer;
@@ -1421,6 +1421,15 @@ nav {
   text-align: left;
 }
 */
+
+@media (max-width: 904px) {
+
+  .logo {
+      margin: 0;
+      padding-top: 24px;
+      font-size: 20px;
+  }
+}
 
 @media (min-width: 905px) {
 
