@@ -691,7 +691,6 @@ there.
   text-align: center;
   margin-top: 48px;
   font-family: 'Raleway', sans-serif;
-
 }
 
 .toolsiuse {
@@ -1387,11 +1386,7 @@ nav ul {
 
 nav ul.opening {
     display: block;
-    height: 30px;
-}
 
-nav li {
-  border-bottom: 1px solid #f6f4e2;
 }
 nav li:last-child {
   border-bottom: none;
