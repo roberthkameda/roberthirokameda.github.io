@@ -1449,6 +1449,9 @@ nav {
       margin-bottom: 0px;
       margin top: 0px;
  }
+   nav li {
+      margin-left: 20px;
+      margin-bottom: 0.4rem;
 }
 
 @media (min-width: 905px) {
