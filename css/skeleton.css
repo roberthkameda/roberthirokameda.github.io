@@ -1394,7 +1394,7 @@ nav li:last-child {
 
 nav a:hover,
 nav a:focus {
-  background: #000;
+  background: #eee;
 }
 
 .site-nav--icon {
