@@ -456,7 +456,7 @@ ol ul {
   margin: 1.5rem 0 1.5rem 3rem;
   font-size: 90%; }
 li {
-  margin-bottom: 1rem; 
+  margin-bottom: 0rem; 
   list-style-type: none;}
 
 /* Code
@@ -1306,7 +1306,7 @@ header::after {
   color: #000;
   font-size: 20px;
   margin: 0;
-  padding-top: 24px;
+  padding-top: 20px;
   padding-left: 20px;
   text-transform: uppercase;
   font-weight: 700;
@@ -1437,12 +1437,13 @@ nav {
   nav li {
      flex: 1 1 auto;
      border: none;
+     margin-top: 4px;
 
  }
 
    nav li a {
        padding: 1.5em 1.3em 1.5em 1.3em;
-       margin: 0;
+       margin-top: 30px;
        border: none;
        background-color: #fff;
             padding-top: 4px;
