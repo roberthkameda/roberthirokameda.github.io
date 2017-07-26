@@ -1344,7 +1344,7 @@ header::after {
 .hamburger::after {
   content: '';
   display: block;
-  background: #000;
+  background: #5BFBB9;
   height: 3px;
   width: 2em;
   border-radius: 3px;
