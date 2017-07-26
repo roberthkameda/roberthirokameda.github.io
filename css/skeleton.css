@@ -1322,7 +1322,7 @@ header::after {
 .menu-toggle {
   position: absolute;
   padding: 1em;
-  top: 1em;
+  top: 1.3em;
   right: .5em;
   cursor: pointer;
 }
