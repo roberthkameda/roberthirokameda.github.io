@@ -798,10 +798,6 @@ font-family: 'Raleway', sans-serif;
 
 /* PONOCRAVE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.ponocravehead {
-    padding-top: 140px;
-    padding-left: 20px;
-}
 
 @media (max-width: 904px) {
   .ponocravehead {
@@ -815,6 +811,10 @@ font-family: 'Raleway', sans-serif;
   }
 }
 
+.ponocravehead {
+    padding-top: 140px;
+    padding-left: 20px;
+}
 .ponocravehtext {
     padding-left: 50px;
     padding-top: 145px;
@@ -1132,19 +1132,6 @@ font-family: 'Raleway', sans-serif;
 
 /* MY PROCESS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-.downarrow {
-  text-align: center;
-}
-
-.stepdesignprocess {
- margin-top: 10px;
-}
-
-.myphead {
-  margin-top: 130px;
-}
-
 @media (max-width: 904px) {
   .myprocesslogo {
     display: none; 
@@ -1159,6 +1146,15 @@ font-family: 'Raleway', sans-serif;
     height: 152px;
   }
 }
+
+.stepdesignprocess {
+ margin-top: 10px;
+}
+
+.myphead {
+  margin-top: 130px;
+}
+
 
 
 /* SKETCH
