@@ -40,8 +40,7 @@
   float: left;
   box-sizing: border-box; }
 
-/* For devices larger than 400px */
-@media (min-width: 400px) {
+@media screen and (max-width: 599px) and (min-width: 500px) {
   .container {
     width: 100%;
     padding: 0; 
@@ -66,7 +65,12 @@
     margin-left: 4%; }
   .column:first-child,
   .columns:first-child {
-    margin-left: 0; }
+    margin-left: 0; 
+  }
+  .cbioparagraph {
+    text-align: right;
+    } 
+  
 
   .one.column,
   .one.columns                    { width: 4.66666666667%; }
@@ -349,7 +353,7 @@ select {
   width: 400px;
 }
 
-@media (max-width: 904px) {
+@media (min-width: 335px) {
 
 input[type="email"],
 input[type="number"],
@@ -371,7 +375,7 @@ select {
   }
 }
 
-@media (min-width: 400px) {
+@media screen and (max-width: 499px) and (min-width: 400px) {
 
 input[type="email"],
 input[type="number"],
@@ -389,11 +393,11 @@ select {
   border-radius: 4px;
   box-shadow: none;
   box-sizing: border-box; 
-  width: 365px;
+  width: 324px;
   }
 }
 
-@media (min-width: 500px) {
+@media screen and (max-width: 599px) and (min-width: 500px) {
 
 input[type="email"],
 input[type="number"],
@@ -412,6 +416,94 @@ select {
   box-shadow: none;
   box-sizing: border-box; 
   width: 460px;
+  }
+}
+
+@media screen and (max-width: 699px) and (min-width: 600px) {
+
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea,
+select {
+  height: 38px;
+  padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
+  background-color: #fff;
+  border: 1px solid #D1D1D1;
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: border-box; 
+  width: 250px;
+  }
+}
+
+@media screen and (max-width: 799px) and (min-width: 700px) {
+
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea,
+select {
+  height: 38px;
+  padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
+  background-color: #fff;
+  border: 1px solid #D1D1D1;
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: border-box; 
+  width: 300px;
+  }
+}
+
+@media screen and (max-width: 899px) and (min-width: 800px) {
+
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea,
+select {
+  height: 38px;
+  padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
+  background-color: #fff;
+  border: 1px solid #D1D1D1;
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: border-box; 
+  width: 350px;
+  }
+}
+
+@media (min-width: 900px) {
+
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea,
+select {
+  height: 38px;
+  padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
+  background-color: #fff;
+  border: 1px solid #D1D1D1;
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: border-box; 
+  width: 400px;
   }
 }
 
@@ -701,7 +793,8 @@ there.
 .heroright {
     text-align: right;
     font-style: italic;
-    padding-right: 55px;
+    margin-right: 55px;
+    white-space: nowrap;
 }
 
 .portfolio  {
@@ -795,7 +888,7 @@ font-family: 'Raleway', sans-serif;
 
 .cbioparagraph {
   text-align: right;
-  margin-top: 55px;
+  margin-top: 48px;
   font-family: 'Raleway', sans-serif;
 }
 
