@@ -802,6 +802,19 @@ font-family: 'Raleway', sans-serif;
     padding-top: 140px;
     padding-left: 20px;
 }
+
+@media (max-width: 904px) {
+  .ponocravehead {
+    margin-top: -200px;
+    margin-left: 60px;
+    text-align: : center;
+  }
+  .valuesponocrave {
+    background-size: cover;
+    height: 152px;
+  }
+}
+
 .ponocravehtext {
     padding-left: 50px;
     padding-top: 145px;
@@ -955,6 +968,7 @@ font-family: 'Raleway', sans-serif;
   margin: auto;
   margin-left: 70px;
 }
+
 
 /* BLOCBOX
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
