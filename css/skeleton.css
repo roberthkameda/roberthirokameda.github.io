@@ -44,7 +44,17 @@
 @media (min-width: 400px) {
   .container {
     width: 100%;
-    padding: 0; }
+    padding: 0; 
+  }
+  .heroleft {
+    padding-left: 50px;
+  }
+  .herocenter {
+    padding-left: 50px;
+  }
+  .heroright {
+    margin-left: 50px;
+  }
 }
 
 /* For devices larger than 550px */
@@ -361,6 +371,50 @@ select {
   }
 }
 
+@media (min-width: 400px) {
+
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea,
+select {
+  height: 38px;
+  padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
+  background-color: #fff;
+  border: 1px solid #D1D1D1;
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: border-box; 
+  width: 365px;
+  }
+}
+
+@media (min-width: 500px) {
+
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea,
+select {
+  height: 38px;
+  padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
+  background-color: #fff;
+  border: 1px solid #D1D1D1;
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: border-box; 
+  width: 460px;
+  }
+}
+
 /* Removes awkward default styles on some inputs for iOS */
 input[type="email"],
 input[type="number"],
@@ -636,7 +690,6 @@ there.
     padding-right: 55px;
     padding-top: 86px;
 }
-
 .herocenter {
     text-align: right;
     font-style: italic;
