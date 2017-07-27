@@ -1319,7 +1319,7 @@ header::after {
   color: #000;
   font-size: 20px;
   margin: 0;
-  padding-top: 20px;
+  padding-top: 24px;
   padding-left: 20px;
   text-transform: uppercase;
   font-weight: 700;
@@ -1461,10 +1461,9 @@ nav {
     display: none;
   }
 
-nav ul li {
+  nav ul li {
     display: inline-block;
-}
-
+  }
 
   nav ul {
     display: flex;
@@ -1478,7 +1477,7 @@ nav ul li {
      border: none;
      margin-top: 4px;
 
- }
+  }
 
    nav li a {
        padding: 1.5em 1.3em 1.5em 1.3em;
@@ -1492,7 +1491,7 @@ nav ul li {
       background-color: rgba(255,255,255,.10);
     }
 
-  .logo {
+  .viewlogo {
       margin: 0;
       padding-top: 24px;
       font-size: 20px;

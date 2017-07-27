@@ -4,8 +4,3 @@ $('.menu-toggle').click(function() {
   $(this).toggleClass('open');
 
 })
-
-
-$('.menu-toggle-collapse ul li a').click(function(){
-           $('.menu-toggle:visible').click();
-})
