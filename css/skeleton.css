@@ -1136,8 +1136,8 @@ font-family: 'Raleway', sans-serif;
     display: none; 
   }
   .myphead {
-    margin-top: -63px;;
-    margin-left: 18px;
+    margin-top: -190px;
+    margin-left: 20px;
     white-space: nowrap;
   }
   .valuesmyprocess {
@@ -1151,7 +1151,7 @@ font-family: 'Raleway', sans-serif;
 }
 
 .myphead {
-  margin-top: 130px;
+  padding-top: 130px;
 }
 
 
