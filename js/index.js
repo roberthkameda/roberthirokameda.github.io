@@ -5,3 +5,7 @@ $('.menu-toggle').click(function() {
 
 })
 
+
+$('.menu-toggle-collapse ul li a').click(function(){
+           $('.menu-toggle:visible').click();
+})

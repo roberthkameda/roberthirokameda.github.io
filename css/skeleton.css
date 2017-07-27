@@ -1,3 +1,4 @@
+
 /*
 * Skeleton V2.0.4
 * Copyright 2014, Dave Gamache
@@ -1459,6 +1460,11 @@ nav {
   .menu-toggle {
     display: none;
   }
+
+nav ul li {
+    display: inline-block;
+}
+
 
   nav ul {
     display: flex;
