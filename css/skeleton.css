@@ -1159,9 +1159,21 @@ font-family: 'Raleway', sans-serif;
 /* SKETCH
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+@media (max-width: 904px) {
+  .shead {
+    margin-top: -218px;
+    margin-left: -64px;
+    white-space: nowrap;
+  }
+  .valuessketch {
+    background-size: cover;
+    height: 152px;
+  }
+}
+
 .shead {
-  margin-top:156px;
-  margin-left:140px;
+  padding-top:156px;
+  padding-left:140px;
 }
 
 .shtext {
@@ -1174,9 +1186,20 @@ font-family: 'Raleway', sans-serif;
 
 /* PHOTOGRAPHY
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+@media (max-width: 904px) {
+  .phead {
+    margin-top: -202px;
+    margin-left: 12px;
+    white-space: nowrap;
+  }
+  .valuesphotography {
+    background-size: cover;
+    height: 152px;
+  }
+}
 
 .phead { 
-  margin-top:141px;
+  padding-top:141px;
 }
 
 .phtext {
