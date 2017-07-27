@@ -928,9 +928,7 @@ font-family: 'Raleway', sans-serif;
   }
 }
 
-
-
-@media (max-width: 904px) {
+@media (max-width: 549px) {
   .values {
     background-size: cover;
     height: 215px;
@@ -1023,6 +1021,7 @@ font-family: 'Raleway', sans-serif;
   .contact {
     margin-top: -44px;
   }
+}
 
 
 
