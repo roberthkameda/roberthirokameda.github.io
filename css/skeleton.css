@@ -971,9 +971,21 @@ font-family: 'Raleway', sans-serif;
 
 /* BLOCBOX
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media (max-width: 904px) {
+  .blocboxhead {
+    margin-top: -189px;
+    margin-left: -23px;
+  }
+  .valuesblocbox {
+    background-size: cover;
+    height: 152px;
+  }
+}
+
 .blocboxhead {
-  margin-top: 130px;
-  margin-left: 80px;
+  padding-top: 130px;
+  padding-left: 80px;
 }
 
 .blocboxhtext {
@@ -1449,6 +1461,8 @@ nav ul {
 
 nav ul.opening {
     display: block;
+    text-align: right;
+    padding-right: 25px;
 }
 
 nav li:last-child {
