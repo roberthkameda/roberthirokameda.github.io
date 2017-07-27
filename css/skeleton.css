@@ -282,15 +282,6 @@ input[type="button"].button-primary:focus {
     border-width: 4px;
 }
 
-.homebt {
-  border-style: solid;
-  border-color: #5BFBB9;
-  border-width: 4px;
-  font-family: 'Raleway', sans-serif;
-  margin-left: 428px;
-
-}
-
 .bbsbtn {
   border-style: solid;
   border-color: #5BFBB9;
@@ -298,33 +289,6 @@ input[type="button"].button-primary:focus {
   font-family: 'Raleway', sans-serif;
   display: block;
   margin: auto; 
-}
-
-.mypbh {
-  border-style: solid;
-  border-color: #5BFBB9;
-  border-width: 4px;
-  font-family: 'Raleway', sans-serif;
-  margin-top: 30px;
-  margin-left:400px;
-}
-
-.bbbt {
-  border-style: solid;
-  border-color: #5BFBB9;
-  border-width: 4px;
-  font-family: 'Raleway', sans-serif;
-  margin-bottom: 0px;
-  margin-left: 165px;
-}
-
-.bbbh {
-  border-style: solid;
-  border-color: #5BFBB9;
-  border-width: 4px;
-  font-family: 'Raleway', sans-serif;
-  margin-bottom: 0px;
-  margin-left: 210px;
 }
 
 .pcinvisionbtn {
@@ -345,26 +309,6 @@ input[type="button"].button-primary:focus {
   margin: auto;
 }
 
-.pcbt {
-  border-style: solid;
-  border-color: #5BFBB9;
-  border-width: 4px;
-  font-family: 'Raleway', sans-serif;
-  margin-bottom: 26px;
-  position: absolute;
-  left: 1;
-}
-
-.pcbh {
-  border-style: solid;
-  border-color: #5BFBB9;
-  border-width: 4px;
-  font-family: 'Raleway', sans-serif;
-  margin-bottom: 26px;
-  position: absolute;
-
-}
-
 .pcsbtn {
   border-style: solid;
   border-color: #5BFBB9;
@@ -372,22 +316,6 @@ input[type="button"].button-primary:focus {
   font-family: 'Raleway', sans-serif;
   display: block;
   margin: auto;
-}
-
-.pbh {
-  border-style: solid;
-  border-color: #5BFBB9;
-  border-width: 4px;
-  font-family: 'Raleway', sans-serif;
-  margin-bottom: 26px;
-}
-
-.sbh {
-  border-style: solid;
-  border-color: #5BFBB9;
-  border-width: 4px;
-  font-family: 'Raleway', sans-serif;
-  margin-bottom: 26px;
 }
 
 /* Forms
@@ -819,7 +747,82 @@ font-family: 'Raleway', sans-serif;
     padding-left: 26px;
     font-style: normal;
   }
+  .ponocravelogo {
+    margin-top: -40px;
+  }
+  .ponocraveuxui {
+    display:none;
+  }
+  .blocboxlogo {
+    margin-top: -60px;
+  }
+  .blocboxuxui {
+    display:none;
+  }
+  .vcspono {
+    display:none;
+  }
+  .vcsbloc {
+    display:none;
+  }
+  .about {
+    margin-top: -42px;
+  }
+  .toolsiuse {
+    margin-top: -10px;
+  }
+  .group3 {
+    display: block;
+    margin: auto;
+    margin-left: 50px;
+  }
+  .group4 {
+    display: block;
+    margin: auto;
+    margin-left: 55px;
+  }
+  .group5 {
+    display: block;
+    margin: auto;
+    margin-left: 84px;
+  }
+  .urat {
+    text-align: center;
+    margin-top: -20px;
+  }
+  .design {
+    text-align: center;
+    margin-left: 0px;
+  }
+  .ufmm {
+    text-align: center;
+    margin-left: 0px;
+  }
+  .vphoto {
+    display:none;
+  }
+  .vsketch {
+    display:none;
+  }
+  .sketch {
+    display:none;
+  }
+  .sketchlogo {
+    margin-top: -80px;
+  }
+  .photography {
+    display:none;
+  }
+  .contact {
+    margin-top: -44px;
+  }
+  .cbioparagraph {
+    text-align: center;
+    margin-top: 0px;
+    font-family: 'Raleway', sans-serif;
+  }
 }
+
 
 
 /* PONOCRAVE
