@@ -892,6 +892,44 @@ font-family: 'Raleway', sans-serif;
   font-family: 'Raleway', sans-serif;
 }
 
+@media (min-width: 335px) { 
+  .cbioparagraph {
+      text-align: center;
+  }
+}
+@media screen and (max-width: 499px) and (min-width: 400px) { 
+  .cbioparagraph {
+      text-align: center;
+  }
+}
+@media screen and (max-width: 599px) and (min-width: 500px) { 
+  .cbioparagraph {
+      text-align: center;
+  }
+}
+@media screen and (max-width: 699px) and (min-width: 600px) { 
+      .cbioparagraph {
+      text-align: right;
+  }
+}
+@media screen and (max-width: 799px) and (min-width: 700px) { 
+      .cbioparagraph {
+      text-align: right;
+  }
+}
+@media screen and (max-width: 899px) and (min-width: 800px) {
+    .cbioparagraph {
+      text-align: right;
+  }
+}
+@media (min-width: 900px) {
+      .cbioparagraph {
+      text-align: right;
+  }
+}
+
+
+
 @media (max-width: 904px) {
   .values {
     background-size: cover;
@@ -985,12 +1023,6 @@ font-family: 'Raleway', sans-serif;
   .contact {
     margin-top: -44px;
   }
-  .cbioparagraph {
-    text-align: center;
-    margin-top: 0px;
-    font-family: 'Raleway', sans-serif;
-  }
-}
 
 
 
