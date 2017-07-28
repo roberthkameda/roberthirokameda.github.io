@@ -353,7 +353,7 @@ select {
   width: 400px;
 }
 
-@media (min-width: 335px) {
+@media (max-width: 335px) {
 
 input[type="email"],
 input[type="number"],
@@ -395,6 +395,7 @@ select {
   box-sizing: border-box; 
   width: 324px;
   }
+
 }
 
 @media screen and (max-width: 549px) and (min-width: 500px) {
@@ -916,7 +917,7 @@ font-family: 'Raleway', sans-serif;
   font-family: 'Raleway', sans-serif;
 }
 
-@media (min-width: 335px) { 
+@media (max-width: 335px) { 
   .cbioparagraph {
     text-align: center;
   }
