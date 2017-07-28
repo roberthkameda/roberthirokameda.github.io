@@ -851,7 +851,6 @@ there.
 .bioparagraph {
   text-align: center;
   font-family: 'Raleway', sans-serif;
-
 }
 
 .aiidpssketch {
@@ -1022,6 +1021,69 @@ font-family: 'Raleway', sans-serif;
     margin-top: -44px;
   }
 }
+
+@media screen and (max-width: 599px) and (min-width: 550px) { 
+  .ponocraveuxui {
+    margin-top: -10px;
+  }
+  .blocboxuxui {
+    margin-top: 48px;
+  }
+  .photography {
+    margin-top: -68px;
+  }
+  .sketch {
+    padding-top: 16px;
+  }
+}
+
+@media screen and (max-width: 699px) and (min-width: 600px) { 
+  .ponocraveuxui {
+    margin-top: -10px;
+  }
+  .blocboxuxui {
+    margin-top: 51px;
+  }
+  .photography { 
+    padding-top: 12px; 
+  }
+  .sketch {
+    padding-top: 16px;
+  }
+}
+
+@media screen and (max-width: 799px) and (min-width: 700px) { 
+  .ponocraveuxui {
+    margin-top: 8px;
+  }
+  .blocboxuxui {
+    margin-top: 70px;
+  }
+  .photography { 
+    padding-top: 32px; 
+  }
+  .sketch {
+    padding-top: 32px;
+  }
+}
+
+@media screen and (max-width: 899px) and (min-width: 800px) { 
+  .ponocraveuxui {
+    margin-top: 16px;
+  }
+  .blocboxuxui {
+    margin-top: 80px;
+  }
+  .photography { 
+    padding-top: 42px;
+  }
+  .sketch {
+    padding-top: 52px;
+  }
+}
+
+
+
 
 
 
