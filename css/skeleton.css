@@ -893,36 +893,43 @@ font-family: 'Raleway', sans-serif;
 
 @media (min-width: 335px) { 
   .cbioparagraph {
-      text-align: center;
+    text-align: center;
   }
 }
 @media screen and (max-width: 499px) and (min-width: 400px) { 
   .cbioparagraph {
-      text-align: center;
+    text-align: center;
   }
 }
-@media screen and (max-width: 599px) and (min-width: 500px) { 
+
+@media screen and (max-width: 549px) and (min-width: 500px) { }
+
+@media screen and (max-width: 599px) and (min-width: 550px) { 
   .cbioparagraph {
-      text-align: center;
+    text-align: right;
+    margin-top: 0px;
   }
 }
 @media screen and (max-width: 699px) and (min-width: 600px) { 
-      .cbioparagraph {
-      text-align: right;
+  .cbioparagraph {
+    text-align: right;
+    margin-top: 10px;
   }
 }
 @media screen and (max-width: 799px) and (min-width: 700px) { 
-      .cbioparagraph {
+    .cbioparagraph {
       text-align: right;
+      margin-top: 22px;
   }
 }
 @media screen and (max-width: 899px) and (min-width: 800px) {
     .cbioparagraph {
       text-align: right;
+      margin-top: 32px;
   }
 }
 @media (min-width: 900px) {
-      .cbioparagraph {
+    .cbioparagraph {
       text-align: right;
   }
 }
