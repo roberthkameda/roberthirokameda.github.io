@@ -397,7 +397,7 @@ select {
   }
 }
 
-@media screen and (max-width: 599px) and (min-width: 500px) {
+@media screen and (max-width: 549px) and (min-width: 500px) {
 
 input[type="email"],
 input[type="number"],
@@ -416,6 +416,28 @@ select {
   box-shadow: none;
   box-sizing: border-box; 
   width: 460px;
+  }
+}
+
+@media screen and (max-width: 599px) and (min-width: 550px) { 
+
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea,
+select {
+  height: 38px;
+  padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
+  background-color: #fff;
+  border: 1px solid #D1D1D1;
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: border-box; 
+  width: 250px;
   }
 }
 
@@ -814,6 +836,9 @@ there.
   font-family: 'Raleway', sans-serif; 
 }
 
+.group4 {
+  margin-right: 0;
+}
 .creative {
   text-align: center;
   font-family: 'Raleway', sans-serif;
@@ -864,7 +889,7 @@ font-family: 'Raleway', sans-serif;
 }
 
 .design {
-margin-left: 39px;
+margin-left: 31px;
 font-family: 'Raleway', sans-serif;
 }
 
@@ -900,14 +925,33 @@ font-family: 'Raleway', sans-serif;
   .cbioparagraph {
     text-align: center;
   }
+  .group3 {
+    padding-left: 36px;
+  }
+  .group4 {
+    padding-left: 32px;;
+  }
+  .group5 {
+    padding-left: 26px;
+  }
 }
 
-@media screen and (max-width: 549px) and (min-width: 500px) { }
+@media screen and (max-width: 549px) and (min-width: 500px) { 
+  .group3 {
+    padding-left: 104px;
+  }
+  .group4 {
+    padding-left: 100px;
+  }
+  .group5 {
+    padding-left: 96px;
+  }
+}
 
 @media screen and (max-width: 599px) and (min-width: 550px) { 
   .cbioparagraph {
     text-align: right;
-    margin-top: 0px;
+    margin-top: 5px;
   }
 }
 @media screen and (max-width: 699px) and (min-width: 600px) { 
@@ -999,7 +1043,7 @@ font-family: 'Raleway', sans-serif;
   }
   .urat {
     text-align: center;
-    margin-top: -20px;
+    margin-top: -10px;
   }
   .design {
     text-align: center;
