@@ -70,6 +70,7 @@
   .cbioparagraph {
     text-align: right;
     } 
+
   
 
   .one.column,
@@ -170,7 +171,6 @@ p {
   font-size: 14px;
   font-family: 'Raleway', sans-serif;
   letter-spacing: 0rem;
-
 }
 
 
@@ -375,6 +375,54 @@ select {
   }
 }
 
+@media (max-width: 375px) and (min-width: 336px) { 
+
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea,
+select {
+  height: 38px;
+  padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
+  background-color: #fff;
+  border: 1px solid #D1D1D1;
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: border-box; 
+  width: 300px;
+  }
+
+.heroleft {
+  padding-left: ;
+}
+}
+
+@media (max-width: 399px) and (min-width: 376px) { 
+
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea,
+select {
+  height: 38px;
+  padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
+  background-color: #fff;
+  border: 1px solid #D1D1D1;
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: border-box; 
+  width: 310px;
+  }
+}
+
 @media screen and (max-width: 499px) and (min-width: 400px) {
 
 input[type="email"],
@@ -395,7 +443,6 @@ select {
   box-sizing: border-box; 
   width: 324px;
   }
-
 }
 
 @media screen and (max-width: 549px) and (min-width: 500px) {
@@ -802,14 +849,14 @@ there.
     text-align: right;
     font-style: italic;
     font-size: 5;
-    padding-right: 55px;
+    padding-right: 65px;
     padding-top: 86px;
 }
 .herocenter {
     text-align: right;
     font-style: italic;
     font-size: 5;
-    padding-right: 55px;
+    padding-right: 66px;
     padding-top: 1px;
 }
 
@@ -913,19 +960,35 @@ font-family: 'Raleway', sans-serif;
 
 .cbioparagraph {
   text-align: right;
-  margin-top: 48px;
+  margin-top: -25px;
   font-family: 'Raleway', sans-serif;
 }
 
-@media (max-width: 335px) { 
+@media only screen and (max-width: 335px) { 
   .cbioparagraph {
     text-align: center;
   }
 }
-@media screen and (max-width: 499px) and (min-width: 400px) { 
-  .cbioparagraph {
-    text-align: center;
+
+@media only screen and (min-device-width: 375px) {
+  .heroleft {
+    padding-left: 92px;
   }
+}
+
+@media screen and (max-width: 499px) and (min-width: 336px) { 
+.cbioparagraph {
+  text-align: center;
+  }
+}
+
+@media screen and (max-width: 549px) and (min-width: 500px) { 
+.cbioparagraph {
+  text-align: center;
+  }
+}
+
+@media screen and (max-width: 499px) and (min-width: 400px) { 
   .group3 {
     padding-left: 36px;
   }
@@ -988,9 +1051,9 @@ font-family: 'Raleway', sans-serif;
     padding-bottom: 5rem;
   }
   .heroleft {
-    margin-left: 71px;
-    margin-top: -178px;
-    font-style: normal;
+    margin-top: -178px; 
+    font-style: normal; 
+    padding-left: 72px; 
   }
   .herocenter {
     margin-top: 0px;
@@ -1070,7 +1133,7 @@ font-family: 'Raleway', sans-serif;
     display:none;
   }
   .contact {
-    margin-top: -44px;
+    margin-top: -78px;
   }
 }
 
@@ -1133,10 +1196,6 @@ font-family: 'Raleway', sans-serif;
     padding-top: 52px;
   }
 }
-
-
-
-
 
 
 /* PONOCRAVE
@@ -1507,6 +1566,7 @@ font-family: 'Raleway', sans-serif;
 
 .myphead {
   padding-top: 130px;
+  
 }
 
 
