@@ -964,7 +964,7 @@ font-family: 'Raleway', sans-serif;
   font-family: 'Raleway', sans-serif;
 }
 
-@media only screen and (max-width: 335px) { 
+@media only screen and (max-width: 375px) { 
   .cbioparagraph {
     text-align: center;
   }
@@ -1200,17 +1200,18 @@ font-family: 'Raleway', sans-serif;
 
 /* PONOCRAVE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+@media screen and (max-width: 335px) { 
 
-@media (max-width: 904px) {
-  .ponocravehead {
-    margin-top: -200px;
-    margin-left: 10px;
-  }
   .valuesponocrave {
     background-size: cover;
     height: 152px;
   }
+    .ponocravehead {
+    margin-top: -200px;
+    margin-left: 10px;
+  }
 }
+ 
 
 .ponocravehead {
     padding-top: 140px;
@@ -1374,20 +1375,50 @@ font-family: 'Raleway', sans-serif;
 /* BLOCBOX
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-@media (max-width: 904px) {
-  .blocboxhead {
-    margin-top: -189px;
-    margin-left: -23px;
-  }
+@media screen and (max-width: 335px) { 
+
   .valuesblocbox {
     background-size: cover;
     height: 152px;
   }
+  .blocboxhead {
+    margin-top: -200px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 375px) and (min-width: 336px){ 
+
+  .valuesblocbox {
+    background-size: cover;
+    height: 152px;
+  }
+    .blocboxhead {
+     margin-top: -201px;
+    margin-left: 31px;
+  }
+}
+
+@media screen and (max-width: 903px) and (min-width: 376px) { 
+
+  .blocboxhead {
+    margin-top: -200px;
+    margin-left: 10px;
+  }
+  .blocboxponocrave {
+    background-size: cover;
+    height: 152px;
+  }
+
+    .valuesblocbox {
+    background-size: cover;
+    height: 152px;
+}
 }
 
 .blocboxhead {
-  padding-top: 130px;
-  padding-left: 80px;
+  padding-top: 142px;
+  padding-left: 46px;
 }
 
 .blocboxhtext {
@@ -1566,7 +1597,7 @@ font-family: 'Raleway', sans-serif;
 
 .myphead {
   padding-top: 130px;
-  
+
 }
 
 
