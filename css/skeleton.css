@@ -284,6 +284,16 @@ input[type="button"].button-primary:focus {
   text-decoration: none;
 }
 
+.bookhomebtn {
+  border-style: solid;
+  border-color: #5BFBB9;
+  border-width: 4px;
+  display: block;
+  margin: auto; 
+  margin-bottom: 26px;
+  text-decoration: none;
+}
+
 .vcspono {
     border-style: solid;
     border-color: #5BFBB9;
