@@ -1049,6 +1049,8 @@ font-family: 'Raleway', sans-serif;
 @media (min-width: 900px) {
     .cbioparagraph {
       text-align: right;
+      margin-top: 50px;
+
   }
 }
 
