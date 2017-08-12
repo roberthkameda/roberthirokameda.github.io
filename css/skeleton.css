@@ -259,6 +259,9 @@ input[type="button"].button-primary:focus {
   text-decoration: none;
  }
 
+.gearsimagep {
+  margin: auto; 
+}
 
 .vphoto {
   border-style: solid;
