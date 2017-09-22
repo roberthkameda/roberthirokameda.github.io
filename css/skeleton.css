@@ -136,7 +136,7 @@ html {
 body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
-  font-weight: 400;
+  font-weight: 700;
   font-family: 'Raleway', sans-serif;
   color: #000;
   letter-spacing: 0rem;
@@ -167,7 +167,7 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0rem; }
 
 p {
   margin-top: 0;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 14px;
   font-family: 'Raleway', sans-serif;
   letter-spacing: 0rem;
@@ -304,6 +304,12 @@ input[type="button"].button-primary:focus {
 }
 
 .vcsbloc {
+    border-style: solid;
+    border-color: #5BFBB9;
+    border-width: 4px;
+}
+
+.vcswalden {
     border-style: solid;
     border-color: #5BFBB9;
     border-width: 4px;
@@ -929,6 +935,16 @@ there.
   font-family: 'Raleway', sans-serif;
 }
 
+.waldenlogo {
+  margin-top:35px;
+}
+
+.waldenuxui {
+  margin-left: 45px;
+  margin-top: 40px;
+  font-family: 'Raleway', sans-serif;
+}
+
 .avatar {
  text-align: center;
   margin-top: 18px;
@@ -1006,7 +1022,7 @@ font-family: 'Raleway', sans-serif;
     padding-left: 36px;
   }
   .group4 {
-    padding-left: 32px;;
+    padding-left: 32px;
   }
   .group5 {
     padding-left: 26px;
@@ -1053,7 +1069,6 @@ font-family: 'Raleway', sans-serif;
     .cbioparagraph {
       text-align: right;
       margin-top: 50px;
-
   }
 }
 
@@ -1092,6 +1107,15 @@ font-family: 'Raleway', sans-serif;
   }
   .blocboxuxui {
     display:none;
+  }
+  .waldenlogo {
+    margin-top: -36px;
+  }
+  .waldenuxui {
+    display:none;
+  }
+  .vcswalden {
+    display: none;
   }
   .vcspono {
     display:none;
@@ -1159,6 +1183,9 @@ font-family: 'Raleway', sans-serif;
   .blocboxuxui {
     margin-top: 48px;
   }
+  .waldenuxui {
+  margin-top: -20px;
+  }
   .photography {
     margin-top: -68px;
   }
@@ -1173,6 +1200,9 @@ font-family: 'Raleway', sans-serif;
   }
   .blocboxuxui {
     margin-top: 51px;
+  }
+  .waldenuxui {
+    margin-top: -10px;
   }
   .photography { 
     padding-top: 12px; 
@@ -1189,6 +1219,9 @@ font-family: 'Raleway', sans-serif;
   .blocboxuxui {
     margin-top: 70px;
   }
+  .waldenuxui {
+    margin-top: 1px;
+  }
   .photography { 
     padding-top: 32px; 
   }
@@ -1203,6 +1236,9 @@ font-family: 'Raleway', sans-serif;
   }
   .blocboxuxui {
     margin-top: 80px;
+  }
+  .waldenuxui {
+    margin-top: 20px;
   }
   .photography { 
     padding-top: 42px;
