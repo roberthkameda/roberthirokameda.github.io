@@ -27,6 +27,7 @@
 
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 .container {
   position: relative;
   width: 100%;
@@ -641,8 +642,48 @@ label > .label-body {
 
 /* Lists
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-ul {
-  list-style: circle inside; }
+.pcsurveyb 
+  ul li {
+    list-style: disc;
+    margin-left: 70px;
+    text-align: left;
+    font-weight: normal;
+}
+
+.pcsgbody 
+  ul li {
+    list-style: disc;
+    margin-left: 10px;
+    text-align: left;
+    font-weight: normal;
+  }
+
+.pcutesting
+  ul li {
+    list-style: disc;
+    margin-left: 10px;
+    text-align: left;
+    font-weight: normal;
+  }
+
+.pcivb
+  ul li {
+    list-style: disc;
+    margin-left: 10px;
+    text-align: left;
+    font-weight: normal;
+  }
+
+.pcufeedback
+  ul li {
+    list-style: disc;
+    margin-left: 10px;
+    text-align: left;
+    font-weight: normal;
+  }
+
+ul li {
+}
 ol {
   list-style: decimal inside; }
 ol, ul {
@@ -1834,7 +1875,7 @@ font-family: 'Raleway', sans-serif;
 }
 
 body {
-  letter-spacing: 1px;
+  letter-spacing: 0px;
 }
 
 .wrapper {
