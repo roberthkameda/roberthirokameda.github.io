@@ -33,10 +33,6 @@
   margin: auto; 
 }
 
-
-
-
-
 .container {
   position: relative;
   width: 100%;
@@ -1014,9 +1010,10 @@ there.
 }
 
 .avatar {
+
   margin: auto;
-display: block;  
-margin-top: 18px;
+  display: block;  
+  margin-top: 18px;
 }
 
 .bioparagraph {
@@ -1146,7 +1143,7 @@ font-family: 'Raleway', sans-serif;
     background-size: cover;
     height: 215px;
     background-color: #85BBB8;
-    color: black;
+    color: white;
     padding-bottom: 5rem;
   }
   .heroleft {
