@@ -796,15 +796,15 @@ there.
   background-size: cover;
   height: 584px;
   background-color: #85BBB8;
-  color: black;
+  color: white;
   padding-bottom: 5rem;
 }
 
 .valuesponocrave {
   background-size: cover;
   height: 584px;
-  background-color: #FFC084;
-  color: black;
+  background-color: #4E9191;
+  color: white;
   padding-bottom: 5rem;
 }
 
@@ -812,7 +812,15 @@ there.
   background-size: cover;
   height: 584px;
   background-color: #6199F8;
-  color: black;
+  color: white;
+  padding-bottom: 5rem;
+}
+
+.valueswalden {
+  background-size: cover;
+  height: 584px;
+  background-color: #869797;
+  color: white;
   padding-bottom: 5rem;
 }
 
@@ -820,7 +828,7 @@ there.
   background-size: cover;
   height: 584px;
   background-color: #C1CBDC;
-  color: black;
+  color: white;
   padding-bottom: 5rem;
 }
 
@@ -828,7 +836,7 @@ there.
   background-size: cover;
   height: 584px;
   background-color: #FF8F83;
-  color: black;
+  color: white;
   padding-bottom: 5rem;
 }
 
@@ -836,7 +844,7 @@ there.
   background-size: cover;
   height: 584px;
   background-color: #80C6B4;
-  color: black;
+  color: white;
   padding-bottom: 5rem;
 }
  
@@ -1304,7 +1312,6 @@ font-family: 'Raleway', sans-serif;
   }
 }
  
-
 .ponocravehead {
     padding-top: 140px;
     padding-left: 20px;
@@ -1468,7 +1475,6 @@ font-family: 'Raleway', sans-serif;
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 @media screen and (max-width: 335px) { 
-
   .valuesblocbox {
     background-size: cover;
     height: 152px;
@@ -1480,7 +1486,6 @@ font-family: 'Raleway', sans-serif;
 }
 
 @media screen and (max-width: 375px) and (min-width: 336px){ 
-
   .valuesblocbox {
     background-size: cover;
     height: 152px;
@@ -1492,7 +1497,6 @@ font-family: 'Raleway', sans-serif;
 }
 
 @media screen and (max-width: 903px) and (min-width: 376px) { 
-
   .blocboxhead {
     margin-top: -200px;
     margin-left: 10px;
@@ -1505,7 +1509,7 @@ font-family: 'Raleway', sans-serif;
     .valuesblocbox {
     background-size: cover;
     height: 152px;
-}
+  }
 }
 
 .blocboxhead {
@@ -1666,6 +1670,201 @@ font-family: 'Raleway', sans-serif;
   text-align: center;
 }
 
+
+/* WALDEN
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media screen and (max-width: 335px) { 
+  .valueswalden {
+    background-size: cover;
+    height: 152px;
+  }
+  .waldenhead {
+    margin-top: -200px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 375px) and (min-width: 336px){ 
+  .valueswalden {
+    background-size: cover;
+    height: 152px;
+  }
+    .waldenhead {
+     margin-top: -201px;
+    margin-left: 31px;
+  }
+}
+
+@media screen and (max-width: 903px) and (min-width: 376px) { 
+  .valueswalden {
+    background-size: cover;
+    height: 152px;
+  }
+  .waldenhead {
+    margin-top: -200px;
+    margin-left: 10px;
+  }
+}
+
+.waldenhead {
+  padding-top: 142px;
+  padding-left: 46px;
+}
+
+.waldenhtext {
+  padding-left: 55px;
+  padding-top: 104px;
+  font-size: 20px;
+}
+
+.walden {
+  text-align: center;
+  margin-top: -5px;
+}
+
+.woverview {
+    text-align: center;
+}
+
+.woverviewb {
+  text-align: center;
+}
+
+.wproblem {
+  text-align: center;
+}
+
+.wproblemb {
+  text-align: center;
+}
+
+.wsolution {
+  text-align: center;
+}
+
+.wsolutionb {
+  text-align: center;
+}
+
+.wresearch {
+}
+
+.wsurvey {
+  text-align: center;
+}
+
+.wsurveyb {
+  text-align: center;
+}
+
+.wcompetitive {
+  text-align: center;
+}
+
+.wcompetitiveb {
+  text-align: center;
+}
+
+.wgoal {
+}
+
+.wmvp {
+  display: block;
+  margin: auto;
+}
+
+.wgoalmvp{
+  text-align: center;
+}
+
+.wgoalb {
+  text-align: center;
+}
+
+.wstorytelling {
+}
+
+.wuserp {
+  text-align: center;
+}
+
+.wuserpb {
+  text-align: center;
+}
+
+.wusers {
+  text-align: center;
+}
+
+.wusersb {
+  text-align: center;
+}
+
+.wuserf {
+  text-align: center;
+}
+
+.wuserfb {
+  text-align: center;
+}
+
+.wbranding {
+}
+
+.wstyleguide {
+  text-align: center;
+}
+
+.wstyleguideb {
+  text-align: center;
+}
+
+.wprototype {
+}
+
+.wlofi {
+  text-align: center;
+}
+
+.wlofib {
+  text-align: center;
+}
+
+.whifi {
+  text-align: center;
+}
+
+.whifib {
+  text-align: center;
+}
+
+.wtesting {
+}
+
+.wutesting {
+  text-align: center;
+}
+
+.wutestingb {
+  text-align: center;
+}
+
+.wufeedback {
+   text-align: center
+}
+
+.wufeedbackb {
+  text-align: center;
+}
+
+.wiv {
+}
+
+.ivb {
+  text-align: center;
+}
+
 /* MY PROCESS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 @media (max-width: 904px) {
@@ -1689,7 +1888,6 @@ font-family: 'Raleway', sans-serif;
 
 .myphead {
   padding-top: 130px;
-
 }
 
 
