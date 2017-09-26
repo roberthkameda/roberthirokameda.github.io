@@ -28,6 +28,15 @@
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+.resume {
+  display: block;
+  margin: auto; 
+}
+
+
+
+
+
 .container {
   position: relative;
   width: 100%;
@@ -279,6 +288,16 @@ input[type="button"].button-primary:focus {
 }
 
 .vmp {
+  border-style: solid;
+  border-color: #5BFBB9;
+  border-width: 4px;
+  display: block;
+  margin: auto; 
+  margin-bottom: 26px;
+  text-decoration: none;
+}
+
+.vmr {
   border-style: solid;
   border-color: #5BFBB9;
   border-width: 4px;
@@ -827,7 +846,7 @@ there.
 .valuesmyprocess {
   background-size: cover;
   height: 584px;
-  background-color: #C1CBDC;
+  background-color: #222F45;
   color: white;
   padding-bottom: 5rem;
 }
@@ -995,8 +1014,9 @@ there.
 }
 
 .avatar {
- text-align: center;
-  margin-top: 18px;
+  margin: auto;
+display: block;  
+margin-top: 18px;
 }
 
 .bioparagraph {
