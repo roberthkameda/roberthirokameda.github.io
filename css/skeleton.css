@@ -206,7 +206,7 @@ input[type="button"] {
   display: inline-block;
   height: 50px;
   padding: 0 32px;
-  color: #000;
+  color: #071C3A;
   text-align: center;
   font-size: 16px;
   font-weight: 600;
@@ -225,7 +225,7 @@ input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover {
     transition-duration: 0.4s;
-    background-color: #5BFBB9; /* Green */
+    background-color: #071C3A; /* blue */
     color: white;
     text-decoration: none;
 }
@@ -245,8 +245,8 @@ input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: #FFF;
-  background-color: #33C3F0;
-  border-color: #33C3F0;
+  background-color: #071C3A;
+  border-color: #071C3A;
   text-decoration: none;
  }
 .button.button-primary:hover,
@@ -260,8 +260,8 @@ input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
   color: #FFF;
-  background-color: #1EAEDB;
-  border-color: #1EAEDB;
+  background-color: #071C3A;
+  border-color: #071C3A;
   text-decoration: none;
  }
 
@@ -271,21 +271,21 @@ input[type="button"].button-primary:focus {
 
 .vphoto {
   border-style: solid;
-  border-color: #5BFBB9;
+  border-color: #071C3A;
   border-width: 4px;
   margin-left: 59px;
 }
 
 .vsketch {
   border-style: solid;
-  border-color: #5BFBB9;
+  border-color: #071C3A;
   border-width: 4px;
   margin-left: 59px;
 }
 
 .vmp {
   border-style: solid;
-  border-color: #5BFBB9;
+  border-color: #071C3A;
   border-width: 4px;
   display: block;
   margin: auto; 
@@ -295,7 +295,7 @@ input[type="button"].button-primary:focus {
 
 .vmr {
   border-style: solid;
-  border-color: #5BFBB9;
+  border-color: #071C3A;
   border-width: 4px;
   display: block;
   margin: auto; 
@@ -305,7 +305,7 @@ input[type="button"].button-primary:focus {
 
 .bookhomebtn {
   border-style: solid;
-  border-color: #5BFBB9;
+  border-color: #071C3A;
   border-width: 4px;
   display: block;
   margin: auto; 
@@ -315,25 +315,25 @@ input[type="button"].button-primary:focus {
 
 .vcspono {
     border-style: solid;
-    border-color: #5BFBB9;
+    border-color: #071C3A;
     border-width: 4px;
 }
 
 .vcsbloc {
     border-style: solid;
-    border-color: #5BFBB9;
+    border-color: #071C3A;
     border-width: 4px;
 }
 
 .vcswalden {
     border-style: solid;
-    border-color: #5BFBB9;
+    border-color: #071C3A;
     border-width: 4px;
 }
 
 .bbsbtn {
   border-style: solid;
-  border-color: #5BFBB9;
+  border-color: #071C3A;
   border-width: 4px;
   font-family: 'Raleway', sans-serif;
   display: block;
@@ -342,7 +342,7 @@ input[type="button"].button-primary:focus {
 
 .pcinvisionbtn {
   border-style: solid;
-  border-color: #5BFBB9;
+  border-color: #071C3A;
   border-width: 4px;
   font-family: 'Raleway', sans-serif;
   display: block;
@@ -351,7 +351,7 @@ input[type="button"].button-primary:focus {
 
 .bbinvisionbtn {
   border-style: solid;
-  border-color: #5BFBB9;
+  border-color: #071C3A;
   border-width: 4px;
   font-family: 'Raleway', sans-serif;
   display: block;
@@ -360,7 +360,7 @@ input[type="button"].button-primary:focus {
 
 .pcsbtn {
   border-style: solid;
-  border-color: #5BFBB9;
+  border-color: #071C3A;
   border-width: 4px;
   font-family: 'Raleway', sans-serif;
   display: block;
@@ -783,7 +783,7 @@ hr {
 
   margin-top: -16px;
   border-width: 0;
-  border-top: 6px solid #5BFBB9; }
+  border-top: 6px solid #071C3A; }
 
 /* Clearing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
