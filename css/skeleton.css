@@ -1010,7 +1010,6 @@ there.
 }
 
 .avatar {
-
   margin: auto;
   display: block;  
   margin-top: 18px;
@@ -1508,8 +1507,8 @@ font-family: 'Raleway', sans-serif;
     height: 152px;
   }
     .blocboxhead {
-     margin-top: -201px;
-    margin-left: 31px;
+      margin-top: -201px;
+      margin-left: 31px;
   }
 }
 
@@ -1731,7 +1730,7 @@ font-family: 'Raleway', sans-serif;
 
 .waldenhtext {
   padding-left: 55px;
-  padding-top: 104px;
+  padding-top: 70px;
   font-size: 20px;
 }
 
@@ -1788,7 +1787,7 @@ font-family: 'Raleway', sans-serif;
 
 .wmvp {
   display: block;
-  margin: auto;
+  margin: auto; 
 }
 
 .wgoalmvp{
@@ -1880,6 +1879,11 @@ font-family: 'Raleway', sans-serif;
 
 .ivb {
   text-align: center;
+}
+
+.wutmpb {
+  text-align: center;
+
 }
 
 /* MY PROCESS
@@ -2015,8 +2019,7 @@ font-family: 'Raleway', sans-serif;
         margin-top: -40px;
         width:50px;
         height:60px;
-
-}
+      }
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
