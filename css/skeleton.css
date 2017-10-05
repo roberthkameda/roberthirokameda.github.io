@@ -142,7 +142,7 @@ html {
 body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
-  font-weight: 700;
+  font-weight: 400;
   font-family: 'Raleway', sans-serif;
   color: #000;
   letter-spacing: 0rem;
@@ -184,7 +184,7 @@ p {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
   color: #1EAEDB;
-  text-decoration: none
+  text-decoration: none;
 }
 a:hover {
   color: #0FA0CE; }
@@ -783,7 +783,7 @@ hr {
 
   margin-top: -16px;
   border-width: 0;
-  border-top: 6px solid #071C3A; }
+  border-top: 2px solid #071C3A; }
 
 /* Clearing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
