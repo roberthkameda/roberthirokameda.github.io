@@ -699,6 +699,12 @@ label > .label-body {
 
 ul li {
 }
+
+.wconclusion ul li {
+  list-style-type: disc;
+  margin-left: 30px;
+}
+
 ol {
   list-style: decimal inside; }
 ol, ul {
@@ -1788,6 +1794,7 @@ font-family: 'Raleway', sans-serif;
 .wmvp {
   display: block;
   margin: auto; 
+  text-align: center;
 }
 
 .wgoalmvp{
@@ -1825,7 +1832,10 @@ font-family: 'Raleway', sans-serif;
   text-align: center;
 }
 
-.wbranding {
+.wbrand {
+  margin: auto;
+  display: block;
+  text-align: center;
 }
 
 .wstyleguide {
@@ -1883,7 +1893,11 @@ font-family: 'Raleway', sans-serif;
 
 .wutmpb {
   text-align: center;
+}
 
+.wconclusion ul li {
+  font-style: normal;
+  font-weight: normal;
 }
 
 /* MY PROCESS
