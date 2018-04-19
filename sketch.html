@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>SKETCH</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:200,200i,300,300i,400,400i,700,700i" rel="stylesheet">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/nav-style.css">
+
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/.png">
+
+
+</head>
+
+<body id="page-top" class="index">
+
+<!-- Navigation -->
+
+ <div class="wrapper">
+        <nav class="site-nav">
+          <h1 class="logo"><a href=index.html#logo>ROBERT HIRO KAMEDA</a></h1>   
+            <div class="menu-toggle">
+              <div class="hamburger"></div>
+            </div>
+
+            <ul class="open desktop">
+                <li><a href=index.html#viewportfolio style="text-decoration: none">PORTFOLIO</a></li>
+                <li><a href="about.html" style="text-decoration: none">ABOUT</a></li>
+                <li><a href="resume.html" style="text-decoration: none">RESUME</a></li>
+                <li><a href="myprocess.html" style="text-decoration: none">MY PROCESS</a></li>
+                <li><a href=index.html#viewcreative style="text-decoration: none">CREATIVE</a></li>
+                <li><a href=index.html#viewcontact style="text-decoration: none">CONTACT</a></li>
+            </ul>
+        </nav>
+    </div>
+      
+<div class="valuessketch">
+  <div class="container">
+    <div class="row">
+      <div class="linetop">
+        <div class="five columns">
+          <ul>
+            <li><h1 class="shead"><b>sketch</b></h1></li>
+          </ul>
+        </div>
+        <div class="seven columns">
+          <div class="herotop">
+          <p class="shtext"><b><i>drawing with my own hand allows me to deeply extract my creative</i> ‘mana’ <i>and explore boundaries I’ve yet to explore</i></b></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- BODY
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<div class="container">
+
+    <div class="row">
+      <div class="eight columns offset-by-two" style="margin-top: 30px">
+        <div class="blocbox">
+          <h6><b>SKETCH<b></h6>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="slideshow1" class="slideshow-container">
+    <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="images/sketchfour.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="images/sketch1.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="images/sketch2.jpg" style="width:100%">
+    </div>
+    <a class="prev" onclick="plusSlides(-1, this.parentNode)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1, this.parentNode)">&#10095;</a>
+    <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1, slideshow1)"></span> 
+    <span class="dot" onclick="currentSlide(2, slideshow1)"></span> 
+    <span class="dot" onclick="currentSlide(3, slideshow1)"></span> 
+    </div>
+    </div>
+    <br>
+
+  <div class="row">
+    <div class="twelve columns" style="margin-top: 10px">
+      <div class="pcsurvey" style="margin-top: 20px">
+        <p><b>How does Design and Sketch relate?</b></p> 
+      </div>
+    </div>
+
+    <div class="eight columns offset-by-two" style="margin-top: 10px">
+      <div class="pcsurveyb" style="margin-bottom: 30px">
+        <ul style="list-style-type:circle">
+          <li>creates an affectionate visual story all happening in one frame</li>
+          <li>visually transcend an idea to viewers, which in my case is to educate people to value "nature" and the "simple lifestyle" a bit more (ex. surfing, hiking, backpacking, traveling)</li>
+          <li>communicate emotionally & therapeautically with viewers who loves or needs art to refresh their mind for all kind of reasons</li>
+        </ul>
+      </div>
+    </div>
+
+
+</div>
+
+<script>
+
+var slideshow1 = document.getElementById("slideshow1");
+slideshow1.currentSlideIndex = 1;
+showSlides(slideshow1.currentSlideIndex, slideshow1);
+
+function plusSlides(n, slideshow) {
+  showSlides(slideshow.currentSlideIndex += n, slideshow);
+}
+
+function currentSlide(n, slideshow) {
+  showSlides(slideshow.currentSlideIndex = n, slideshow);
+}
+
+function showSlides(n, slideshow) {
+  
+  var i;
+  var slides = slideshow.getElementsByClassName("mySlides");
+  var dots = slideshow.getElementsByClassName("dot");
+  if (n > slides.length) {slideshow.currentSlideIndex = 1}    
+  if (n < 1) {slideshow.currentSlideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideshow.currentSlideIndex-1].style.display = "block";  
+  dots[slideshow.currentSlideIndex-1].className += " active";
+}
+
+</script>
+
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+<script src="js/index.js"></script>
+
+</body>
+</html>
+      
+
+
