@@ -824,7 +824,7 @@ there.
 .valuesponocrave {
   background-size: cover;
   height: 584px;
-  background-color: #FDB47A;
+  background-color: #FFA52E;
   color: white;
   padding-bottom: 5rem;
 }
@@ -840,7 +840,7 @@ there.
 .valueswalden {
   background-size: cover;
   height: 584px;
-  background-color: #FF8F83;
+  background-color: #FF6757;
   color: white;
   padding-bottom: 5rem;
 }
@@ -1148,7 +1148,6 @@ font-family: 'Raleway', sans-serif;
     background-size: cover;
     height: 215px;
     background-color: #85BBB8;
-    color: white;
     padding-bottom: 5rem;
   }
   .heroleft {
@@ -1328,7 +1327,7 @@ font-family: 'Raleway', sans-serif;
     background-size: cover;
     height: 152px;
   }
-    .ponocravehead {
+  .ponocravehead {
     margin-top: -200px;
     margin-left: 10px;
   }
@@ -1337,11 +1336,13 @@ font-family: 'Raleway', sans-serif;
 .ponocravehead {
     padding-top: 140px;
     padding-left: 20px;
+
 }
 .ponocravehtext {
     padding-left: 50px;
     padding-top: 145px;
     font-size: 20px;
+
 }
 
 .ponocrave {
